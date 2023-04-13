@@ -18,10 +18,84 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black; /* set your desired background color */
+  background: linear-gradient(to bottom, #333, #333);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90px; /* set the height of the navbar */
+  padding: 0 22px; /* add some padding to the navbar */
+}
+
+.navbar img {
+  margin-right: 20px;
+  margin-top: 2px; /* add some margin to the logo to create some space */
+}
+
+.navbar_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar_content a {
+  margin: 0 20px; /* add some margin to the navigation links */
+  text-decoration: none;
+  color: white; /* set the color of the navigation links */
+  font-size: 18px; /* set the font size of the navigation links */
+  padding: 30px;
+
+  /* text-align: center; */
+}
+
+.navbar_content a:hover {
+  background-color: white;
+  color: black;
+}
+
+.search-form {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-form input[type='text'] {
+  padding: 8px 8px 8px 40px; /* add some padding to the left side for the icon */
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  width: 385px;
+  margin-right: 2rem;
+}
+
+.quote_space p {
+  /* text-align: center; */
+  font-size: 3rem;
+  margin-top: 5rem;
+  color: green;
+}
+.quote_space {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 500px;
+  background-image: url('/public/smart_home.png');
+  background-size: cover;
+  background-position: center center;
+  color: #ffffff;
+  text-align: center;
 }
