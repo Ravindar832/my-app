@@ -14,13 +14,9 @@ export default function Home() {
             Home
           </a>
           <a href="#products">Products</a>
-          <a href="#news">News</a>
           <a href="#contact">Contact</a>
           <a href="#about">About</a>
           <a href="#profile">profile</a>
-          <form className="search-form">
-            <input type="text" placeholder="Search" />
-          </form>
         </div>
       </div>
 
