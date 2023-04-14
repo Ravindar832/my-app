@@ -42,7 +42,7 @@ body {
   overflow: hidden; /* add some padding to the navbar */
 }
 
-.navbar img {
+.navbar Image {
   margin-right: 20px;
   margin-top: 2px; /* add some margin to the logo to create some space */
 }
@@ -82,7 +82,7 @@ body {
     height: 70px;
   }
 
-  .navbar img {
+  .navbar Image {
     margin-right: 10px;
   }
 
@@ -98,7 +98,7 @@ body {
     height: 60px;
   }
 
-  .navbar img {
+  .navbar Image {
     margin-right: 2px;
   }
 
@@ -113,7 +113,7 @@ body {
     height: 50px;
   }
 
-  .navbar img {
+  .navbar Image {
     margin-right: 0.5px;
     height: 40px;
     width: 40px;
@@ -151,7 +151,7 @@ body {
   font-size: 20px;
 }
 
-.smobile img {
+.smobile Image {
   position: absolute;
   bottom: -200px;
   right: 250px;
@@ -174,7 +174,7 @@ body {
   background-color: whitesmoke;
 }
 
-.Live_future img {
+.Live_future Image {
   margin-right: 20px;
   border-radius: 5px;
 }
@@ -220,7 +220,7 @@ body {
     top: 250px;
   }
 
-  .smobile img {
+  .smobile Image {
     bottom: -150px;
     right: 150px;
   }
@@ -253,7 +253,7 @@ body {
     top: 300px;
   }
 
-  .smobile img {
+  .smobile Image {
     bottom: -150px;
     right: 150px;
   }
@@ -286,7 +286,7 @@ body {
     top: 310px;
   }
 
-  .smobile img {
+  .smobile Image {
     bottom: -200px;
     right: 250px;
   }
@@ -336,7 +336,7 @@ body {
   text-align: center;
 }
 
-.home_makeover img {
+.home_makeover Image {
   display: grid;
   grid-template-columns: auto, auto, auto;
   grid-template-rows: auto, auto, auto;
@@ -348,7 +348,7 @@ body {
   /* height: auto; */
   margin-bottom: 10px;
 }
-.img_row {
+.Image_row {
   display: grid;
   /* grid-template-columns: auto,auto,auto;
   grid-template-rows: auto,auto,auto; */
