@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center ">
       <div className="land_page">
-        <img src="smart_home.jpg" alt="norway" width={'100'}/>
+        <img src="smart_home.jpg" alt="norway" width='100%'/>
         <div className={'navbar'}>
           <img src="logo.png" alt="small" height={80} width={80} />
 
