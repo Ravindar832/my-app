@@ -1,3 +1,4 @@
+
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import { FcPhoneAndroid, FcSettings } from 'react-icons/fc'
@@ -9,9 +10,9 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center ">
       <div className="land_page">
-        <Image src="smart_home.jpg" alt="norway" width={'100'}/>
+        <img src="smart_home.jpg" alt="norway" width={'100'}/>
         <div className={'navbar'}>
-          <Image src="logo.png" alt="small" height={80} width={80} />
+          <img src="logo.png" alt="small" height={80} width={80} />
 
           <div className="navbar_content">
             <a className={'active'} href="#home">
@@ -29,7 +30,7 @@ export default function Home() {
         </p>
       </div>
       <div className="smobile">
-        <Image src="Smart_mobile.jpg" alt="norway" />
+        <img src="Smart_mobile.jpg" alt="norway" />
       </div>
       <br/>
       <br/>
@@ -38,7 +39,7 @@ export default function Home() {
       <br/>
 
       <div className="Live_future">
-        <Image src="lfuture.jpg" alt="norway" height={400} width={300} />
+        <img src="lfuture.jpg" alt="norway" height={400} width={300} />
         <div className="content">
           <h1>Future world</h1>
           <ul>
@@ -109,29 +110,29 @@ export default function Home() {
         Upgrade Your Home with Smart Node  Customizable and User-Friendly
         Smart Home Products
       </p> */}
-            <div className="Image_row">
-              <div className="image-container">
-                <Image src="light_control.png" alt="norway" />
+            <div className="img_row">
+              <div className="img-container">
+                <img src="light_control.png" alt="norway" />
                 <figcaption> light-control</figcaption>
               </div>
-              <div className="image-container">
-                <Image src="smart-switch.png" alt="norway" />
+              <div className="img-container">
+                <img src="smart-switch.png" alt="norway" />
                 <figcaption> smart-switch</figcaption>
               </div>
-              <div className="image-container">
-                <Image src="security.png" alt="norway" />
+              <div className="img-container">
+                <img src="security.png" alt="norway" />
                 <figcaption> security</figcaption>
               </div>
-              <div className="image-container">
-                <Image src="smart_curtain.png" alt="norway" />
+              <div className="img-container">
+                <img src="smart_curtain.png" alt="norway" />
                 <figcaption> smart-curtain</figcaption>
               </div>
-              <div className="image-container">
-                <Image src="smart-speaker.png" alt="norway" />
+              <div className="img-container">
+                <img src="smart-speaker.png" alt="norway" />
                 <figcaption> speaker</figcaption>
               </div>
-              <div className="image-container">
-                <Image src="smart-tv.png" alt="norway" />
+              <div className="img-container">
+                <img src="smart-tv.png" alt="norway" />
                 <figcaption> smart-remote</figcaption>
               </div>
             </div>
@@ -139,7 +140,7 @@ export default function Home() {
         </div>
         <div className="right-container">
           <div className="smhome">
-            <Image src="sm_home.jpg" alt="norway" />
+            <img src="sm_home.jpg" alt="norway" />
           </div>
         </div>
       </section>
@@ -169,7 +170,7 @@ export default function Home() {
       <br/>
       <div className="products">
         <h1>products site navigation/products</h1>
-        <p>with image</p>
+        <p>with img</p>
       </div>
 
       <br/>
