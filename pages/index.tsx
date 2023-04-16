@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import { FcPhoneAndroid, FcSettings } from 'react-icons/fc'
-import { FaMicrophone, FaCog, FaTabletAlt } from 'react-icons/fa'
+import { FaMicrophone, FaCog, FaTabletAlt ,FaTwitter,FaPhoneAlt,FaEnvelope,FaCopyright} from 'react-icons/fa'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -102,7 +102,7 @@ export default function Home() {
           <div className="home_makeover">
             <h1>Smart Remote Home</h1>
             <p>
-              Transform Your Home with Smart Node<br/>s Customizable and
+              Transform Your Home with Smart Nodes Customizable and
               User-Friendly Smart Home Products, Safety, and Comfort for a
               modern and efficient lifestyle.
             </p>
@@ -148,51 +148,188 @@ export default function Home() {
       <br/>
       <br/>
       <br/>
+   
+   
 
-      {/* about us  */}
-      <div className="about_us">
-        <h3>About us</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-          labore ea quae, tempore nisi ratione! Labore, quod ullam, odit laborum
-          sapiente quaerat qui perspiciatis eos necessitatibus maiores vel
-          officia velit. Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Pariatur labore ea quae, tempore nisi ratione! Labore, quod
-          ullam, odit laborum sapiente quaerat qui perspiciatis eos
-          necessitatibus maiores vel officia velit.Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Pariatur labore ea quae, tempore nisi
-          ratione! Labore, quod ullam, odit laborum sapiente quaerat qui
-          perspiciatis eos necessitatibus maiores vel officia velit.
-        </p>
-      </div>
-      <br/>
-      <br/>
-      <br/>
-      <div className="products">
-        <h1>products site navigation/products</h1>
-        <p>with img</p>
-      </div>
+     <section className='hiw'>
+  <div className="hiw_img">
+    <img src="hiw.png" alt="norway" />
+  </div>
+  
+  <div className="hiwcontent">
+    <h1>
+      How it works
+    </h1>
+    
+    <ul>
+      <li>
+        {/* <FaTabletAlt size={43} color="#9DD9F3" /> */}
+        <span style={{ marginLeft: '0.5rem' }}>
+          <h3 style={{ fontSize: '25px' }}>Step 1: Choose the automata theme</h3>
+          <p>
+            Identify which areas of your home you want to automate, such as lighting, security, or temperature control.
+          </p>
+        </span>
+      </li>
 
-      <br/>
-      <br/>
-      <br/>
-      <div className="about_brands">
-        <p>about brands and smart_home </p>
+      <li>
+        {/* <FaCog size={43} color="#9DD9F3" /> */}
+        <span style={{ marginLeft: '0.5rem' }}>
+          <h3 style={{ fontSize: '25px' }}>Step 2: Buy Smart Home Devices</h3>
+          <p>Purchase smart home devices from trusted brands that are compatible with your automation preferences.</p>
+        </span>
+      </li>
+
+      <li>
+        {/* <FaMicrophone size={45} color="#9DD9F3" /> */}
+        <span style={{ marginLeft: '0.5rem' }}>
+          <h3 style={{ fontSize: '25px' }}>Step 3: Schedule Installation</h3>
+          <p>
+          Arrange for professional installation or set up the devices yourself, depending on your comfort level.
+          </p>
+        </span>
+      </li>
+
+      <li>
+        {/* <FaCog size={43} color="#9DD9F3" /> */}
+        <span style={{ marginLeft: '0.5rem' }}>
+          <h3 style={{ fontSize: '25px' }}>Step 4: Connect to Your Home Network</h3>
+          <p>Use the app or website to connect the devices to your home Wi-Fi network.</p>
+        </span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+    {/* <section className='bfooter'> */}
+    <div className='ed-img'>
+      <div className='img1'>
+      <img src="smar_tover.jpg" alt="norway"  />
       </div>
-      <div className="name">
-        <p>hello ravindar</p>
+      <div className='img2'>
+      <img src="smart_over.jpg" alt="norway" width= "85%"/>
       </div>
-      <br/>
-      <br/>
-      <div className="contact">
-        <h3>support</h3>
-        <a href="#email">contacts</a>
       </div>
-      <br/>
-      <br/>
-      <div className="copyrights">
-        <h1>copyrights</h1>
+    {/* </section> */}
+
+    <section className='footer-section' style={{ display: 'flex' }}>
+    <div className="content">
+    <h1>
+      About us
+    </h1>
+    
+    <ul>
+      <li>
+        <a href="#company">
+        <span style={{ marginLeft: '0.5rem' }}>
+          <h3> About Company</h3>
+        </span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#products">
+        <span style={{ marginLeft: '0.5rem' }}>
+          <h3 >Products</h3>
+        </span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#blog">
+        <span style={{ marginLeft: '0.5rem' }}>
+          <h3 >blog</h3>
+        </span>
+        </a>
+      </li>
+
+    </ul>
+  </div>
+  <div className="content">
+    <h1>
+      Help
+    </h1>
+    
+    <ul>
+      <li>
+        <a href="#support">
+        <span style={{ marginLeft: '0.5rem' }}>
+          <h3> Support</h3>
+        </span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#faqs">
+        <span style={{ marginLeft: '0.5rem' }}>
+          <h3 >FAQs</h3>
+        </span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#contact">
+        <span style={{ marginLeft: '0.5rem' }}>
+          <h3 >Contact</h3>
+        </span>
+        </a>
+      </li>
+
+    </ul>
+  </div>
+
+  <div className="content">
+    <h1>
+      Contact us
+    </h1>
+    
+    <ul style={{marginBottom:'10px'}}>
+      <li style={{marginTop:'18px'}}>
+        <a href="#call" style={{ display: 'flex', alignItems: 'center' }}>
+        <FaPhoneAlt/>
+        <span style={{ marginLeft: '0.5rem' }}>
+          <h3> +91 6302853787</h3>
+         
+        </span>
+        </a>
+      </li>
+
+      <li  style={{marginTop:'18px'}}>
+        <a href="#email" style={{ display: 'flex', alignItems: 'center' }}>
+      <FaEnvelope/>
+        <span style={{ marginLeft: '0.5rem' }}>
+          <h3 > e-mail</h3>
+        </span>
+        </a>
+      </li>
+
+      <li style={{marginTop:'18px'}}>
+        <a href="#twitter" style={{ display: 'flex', alignItems: 'center' }}>
+           <FaTwitter/>
+        <span style={{ marginLeft: '0.5rem' }}>
+          <h3 >tweet</h3>
+        </span>
+        </a>
+      </li>
+
+    </ul>
+  </div>
+
+  </section>
+   
+
+  <footer style={{backgroundColor:'whitesmoke',width:'100%',alignItems:'center',justifyContent:'center'}}>
+    <hr style={{border:'2px solid black',width:'70%',marginLeft: '15rem'}} />
+    <div style={{display:'flex',margin:'10px'}}>
+    <span style={{ marginLeft: '32rem', display:'flex' }}>
+    <FaCopyright size={25}/>
+      <p style={{marginBottom: '30px',marginLeft:'10px'}}>  2023 HA  All rights reserved. Privacy Policy Terms of Use</p>
+      </span>
       </div>
+      {/* copyright */}
+      </footer>
+      
+    
     </main>
-  )
-}
+    
+  )}
