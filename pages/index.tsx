@@ -42,8 +42,6 @@ export default function Home() {
       <br />
       <br />
       <br />
-      <br />
-      <br />
 
       <div className="Live_future">
         <img src="lfuture.jpg" alt="norway" height={400} width={300} />
@@ -168,9 +166,7 @@ export default function Home() {
             <li>
               {/* <FaTabletAlt size={43} color="#9DD9F3" /> */}
               <span style={{ marginLeft: '0.5rem' }}>
-                <h3 style={{ fontSize: '25px' }}>
-                  Step 1: Choose the automata theme
-                </h3>
+                <h3>Step 1: Choose the automata theme</h3>
                 <p>
                   Identify which areas of your home you want to automate, such
                   as lighting, security, or temperature control.
@@ -181,9 +177,7 @@ export default function Home() {
             <li>
               {/* <FaCog size={43} color="#9DD9F3" /> */}
               <span style={{ marginLeft: '0.5rem' }}>
-                <h3 style={{ fontSize: '25px' }}>
-                  Step 2: Buy Smart Home Devices
-                </h3>
+                <h3>Step 2: Buy Smart Home Devices</h3>
                 <p>
                   Purchase smart home devices from trusted brands that are
                   compatible with your automation preferences.
@@ -194,9 +188,7 @@ export default function Home() {
             <li>
               {/* <FaMicrophone size={45} color="#9DD9F3" /> */}
               <span style={{ marginLeft: '0.5rem' }}>
-                <h3 style={{ fontSize: '25px' }}>
-                  Step 3: Schedule Installation
-                </h3>
+                <h3>Step 3: Schedule Installation</h3>
                 <p>
                   Arrange for professional installation or set up the devices
                   yourself, depending on your comfort level.
@@ -207,9 +199,7 @@ export default function Home() {
             <li>
               {/* <FaCog size={43} color="#9DD9F3" /> */}
               <span style={{ marginLeft: '0.5rem' }}>
-                <h3 style={{ fontSize: '25px' }}>
-                  Step 4: Connect to Your Home Network
-                </h3>
+                <h3>Step 4: Connect to Your Home Network</h3>
                 <p>
                   Use the app or website to connect the devices to your home
                   Wi-Fi network.
@@ -331,28 +321,13 @@ export default function Home() {
         </div>
       </section>
 
-      <footer
-        style={{
-          backgroundColor: 'whitesmoke',
-          width: '100%',
-          alignItems: 'center',
-          justifyContent: 'center',
-        }}
-      >
-        <hr
-          style={{
-            border: '2px solid black',
-            width: '70%',
-            marginLeft: '15rem',
-          }}
-        />
-        <div style={{ display: 'flex', margin: '10px' }}>
-          <span style={{ marginLeft: '32rem', display: 'flex' }}>
+      <footer style={{ backgroundColor: 'whitesmoke', width: '100%' }}>
+        {/* <hr  className='hra' style={{border:'2px solid black',width:'60%',marginLeft:'20rem' }} /> */}
+        <hr />
+        <div className="cpyrght">
+          <span>
             <FaCopyright size={25} />
-            <p style={{ marginBottom: '30px', marginLeft: '10px' }}>
-              {' '}
-              2023 HA All rights reserved. Privacy Policy Terms of Use
-            </p>
+            <p>2023 HA All rights reserved. Privacy Policy Terms of Use</p>
           </span>
         </div>
         {/* copyright */}

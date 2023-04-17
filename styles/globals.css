@@ -209,20 +209,24 @@ body {
 /* Media queries for screen sizes */
 @media only screen and (max-width: 360px) {
   .land_page h1 {
-    font-size: 50px;
+    font-size: 15px;
     left: 10px;
-    top: 100px;
+    top: 70px;
   }
 
   .land_page p {
-    font-size: 16px;
+    font-size: 6px;
     left: 10px;
-    top: 250px;
+    top: 90px;
   }
 
   .smobile img {
-    bottom: -150px;
-    right: 150px;
+    height: 15%;
+    width: 15%;
+    bottom: -200px;
+    right: 50px;
+    top: 120px;
+    border-radius: 6px;
   }
 
   .Live_future {
@@ -446,6 +450,62 @@ body {
   line-height: 1.5;
   text-align: center;
 }
+@media only screen and (max-width: 360px) {
+  .hiw {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+
+    background-color: aliceblue;
+  }
+  .hiw_img {
+    position: absolute;
+    flex-basis: 100%;
+    margin-right: 40px;
+    margin-left: 10px;
+    margin-bottom: 100%;
+    margin-top: -400;
+  }
+  .hiw_img img {
+    width: 100%;
+    height: auto;
+  }
+  .hiwcontent {
+    flex-basis: 100%;
+    margin-top: 200px;
+  }
+  .hiwcontent li p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1;
+    text-align: left;
+  }
+  .hiwcontent li h3 {
+    text-align: left;
+    font-size: 22px;
+    margin-bottom: 2px;
+  }
+  .hiwcontent h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  .hiwcontent li {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  /* .hiwcontent ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+  } */
+}
 
 /* .bfooter {
   align-items: center;
@@ -477,6 +537,33 @@ body {
   height: 100%;
 }
 
+@media only screen and (max-width: 360px) {
+  .ed-img {
+    display: flex;
+    width: 100%;
+    margin: 15px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-left: 2.3rem;
+  }
+
+  .ed-img .img1 {
+    flex: 1.265;
+    margin: 15px;
+    border-radius: 5px;
+  }
+  .ed-img .img2 {
+    flex: 1.655;
+    margin: 15px;
+  }
+  .ed-img img {
+    border-radius: 20px;
+  }
+  .ed-img .img2 img {
+    width: 80%;
+    height: 100%;
+  }
+}
 .footer-section {
   display: flex;
   flex-direction: row;
@@ -515,12 +602,97 @@ body {
   margin-bottom: 0.5px;
   line-height: 1.2;
 }
+@media only screen and (max-width: 360px) {
+  .footer-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+  }
+  .footer-section .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 30;
+    margin: 6px;
+  }
 
+  .footer-section h1 {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-left: 2rem;
+  }
+
+  .footer-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 2rem;
+  }
+
+  .footer-section li {
+    font-size: 13px;
+    margin-bottom: 0.3px;
+    line-height: 1;
+  }
+}
+
+.footer {
+  background-color: whitesmoke;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .hra {
+  border: 2px solid black;
+  width: 40%;
+  margin-left: 10rem;
+}
+.cpyrght {
+  display: flex;
+  margin: 10px;
+  margin-left: 30rem;
+}
+.cpyrght p {
+  margin-bottom: 30px;
+  margin-left: 7px;
+}
+
+.cpyrght span {
+  margin-left: 4rem;
+  display: flex;
+}
 /* Media queries for different screen sizes */
 @media only screen and (max-width: 360px) {
-  footer {
+  .footer {
+    background-color: whitesmoke;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
     /* Adjust styles here for screen size 360px or smaller */
-    justify-content: flex-start;
+  }
+  .cpyrght {
+    display: flex;
+    margin: 10px;
+    margin-left: 1rem;
+  }
+  .cpyrght p {
+    margin-bottom: 30px;
+    margin-left: 7px;
+  }
+  .cpyrght span {
+    margin-left: 0rem;
+    display: flex;
+  }
+  .footer .hra {
+    border: 2px solid black;
+    width: 40%;
+    margin-left: 0rem;
   }
 }
 
@@ -543,27 +715,4 @@ body {
     /* Adjust styles here for screen size larger than 760px */
     justify-content: center;
   }
-}
-
-/* 
-.Live_future {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 60%;
-  height: 90%;
-  border-radius: 5px;
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-} */
-
-.about_us {
-  align-items: center;
-  text-align: center;
-}
-
-.name p {
-  color: green;
-  /* margin-top: 40rem; */
 }
